@@ -19,7 +19,7 @@
 
 .track--title {
   grid-area: track--title;
-  
+
   margin-top: .5rem;
   margin-bottom: 0;
   margin-left: .25rem;
@@ -42,12 +42,12 @@
   font-size: 1rem;
 }
 .track--favorite:before {
-   content: "\2605";
+   content: "\2606";
    position: absolute;
    visibility:visible;
 }
 .track--favorite:checked:before {
-  content: "\2606";
+  content: "\2605";
   position: absolute;
 }
 
